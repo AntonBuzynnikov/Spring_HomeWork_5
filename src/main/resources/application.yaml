@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: task-manager
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasks
+    username: admin
+    password: Lbcrjntrf12!
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
